@@ -4,7 +4,7 @@ Config = {
     -- Thank you to those who provided translations.
     --
     -- Check languages code below to change the MenuLanguage
-    MenuLanguage = 'en',
+    MenuLanguage = 'fr',
     -- Set this to true to enable some extra prints
     DebugDisplay = false,
     -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
@@ -15,9 +15,9 @@ Config = {
     AllowedInCars = true,
     -- You can disable the menu here / change the keybind. It is currently set to F3
     MenuKeybindEnabled = true,
-    MenuKeybind = 'F5', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    MenuKeybind = 'F3', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can disable the Favorite emote keybinding here.
-    FavKeybindEnabled = true,
+    FavKeybindEnabled = false,
     FavKeybind = 'CAPITAL', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can change the header image for the menu here
     -- Use a 512 x 128 image!
@@ -30,8 +30,8 @@ Config = {
     -- You can change the menu position here
     MenuPosition = "right", -- (left, right)
     -- You can enable or disable the Ragdoll keybinding here.
-    RagdollEnabled = false,
-    RagdollKeybind = 'U', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    RagdollEnabled = true,
+    RagdollKeybind = 'K', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
     -- You can disable the Facial Expressions menu here.
@@ -44,11 +44,11 @@ Config = {
     SharedEmotesEnabled = true,
     CheckForUpdates = true,
     -- If you have the SQL imported enable this to turn on keybinding.
-    SqlKeybinding = false,
+    SqlKeybinding = true,
     -- If you don't like gta notifications, you can disable them here to have messages in the chat.
     NotificationsAsChatMessage = false,
     -- Used for few framework dependent things. Accepted values: "qb-core", false
-    Framework = false,
+    Framework = "qb-core",
 }
 
 Config.KeybindKeys = {
